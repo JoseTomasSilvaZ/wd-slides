@@ -1,0 +1,49 @@
+.slidev-layout {
+    @apply bg-zinc-100 text-zinc-900
+}
+
+
+h1, h2, h3, h4, h5 {
+    @apply tracking-tight
+}
+
+h1 {
+    @apply !text-3xl font-semibold
+}
+
+h2 {
+    @apply !text-2xl font-semibold
+}
+
+h3 {
+    @apply !text-xl font-semibold
+}
+
+h4 {
+    @apply !text-lg font-semibold
+}
+
+p, span {
+    @apply !text-sm text-zinc-900
+}
+
+code span {
+    @apply !text-xs
+}
+
+.side-comment {
+    @apply !text-xs absolute bottom-4 right-4 w-96 !text-xs border p-3 rounded-md hover:border-zinc-300 transition-all;
+}
+
+ul {
+    @apply !text-sm
+}
+
+code {
+    @apply text-white;
+}
+
+.slidev-code-copy,
+.slidev-icon {
+    @apply text-white fill-white;
+}
