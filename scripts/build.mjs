@@ -12,7 +12,7 @@ const slideDirs = await glob("presentations/*", {
 // Clear previous build artifacts
 echo("");
 echo`[slides] ${green(`Clear last building files`)}`;
-await $`rm -rf .site presentations/*/dist`;
+await $`rm -rf dist presentations/*/dist`;
 
 // Log found slide directories
 echo("");
@@ -22,8 +22,8 @@ echo`[build] ${green(`found slides`)} ${yellow(`[
 
 // Build the main index slide
 echo("");
-fs.mkdirSync(".site");
-fs.copyFileSync("index.html", ".site/index.html");
+fs.mkdirSync("dist");
+fs.copyFileSync("index.html", "dist/index.html");
 
 // Build each individual slide
 for (let dir of slideDirs) {
@@ -50,7 +50,7 @@ for (let dir of slideDirs) {
 echo("");
 echo`[build] ${green(`Composing slides pages`)}`;
 for (let dir of slideDirs) {
-    const destDir = `.site/${dir}/`;
+    const destDir = `dist/${dir}/`;
     const srcDir = `${dir}/dist/`;
 
     // Log file operation
