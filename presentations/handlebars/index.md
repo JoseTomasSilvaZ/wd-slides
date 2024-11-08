@@ -8,7 +8,7 @@ info: |
   ## Ayudantía de Desarrollo web y móvil, por José Tomás Silva.
 
 class: text-center
-fonts: 'Nunito Sans'
+fonts: "Nunito Sans"
 drawings:
   persist: false
 
@@ -16,9 +16,10 @@ transition: slide-up
 mdc: true
 ---
 
+
 # Ayudantía Desarrollo web y móvil
 <span>
-✨NodeJS, Syntax, Express✨ 
+✨Express, Handlebars, forms✨ 
 </span>
 
 
@@ -26,39 +27,46 @@ mdc: true
 Web dev 2024-2. Septiembre, 2024.
 </span>
 
-
-
 ---
-src: ./pages/arrays.md
-hide: false
----
-
----
-src: ./pages/node.md
-hide: false
----
-
----
-src: ./pages/express.md
+src: ./pages/handlebars.md
 hide: false
 ---
 
 
 ---
-src: ./pages/verbs.md
+src: ./pages/handlebars-setup.md
 hide: false
 ---
 
 ---
-src: ./pages/will-do.md
+src: ./pages/handlebars-directories.md
 hide: false
 ---
+
+
+---
+src: ./pages/handlebars-syntax.md
+hide: false
+---
+
+
+---
+src: ./pages/handlebars-partials.md
+hide: false
+---
+
+---
+src: ./pages/handlebars-utilities.md
+hide: false
+---
+
+---
+src: ./pages/forms.md
+hide: false
+---
+
 
 ---
 src: ./pages/today.md
 hide: false
----
-
----
-transition: fade-out
 ---

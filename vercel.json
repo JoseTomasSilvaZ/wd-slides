@@ -2,6 +2,6 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist"
+  "buildCommand": "npm run clean && npm run build:multiple",
+  "outputDirectory": ".site"
 }

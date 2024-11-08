@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>✨ Ayudantías web dev</title>
+  </head>
+  <body>
+    <main>
+      <ul>
+        <li>
+          <a href="/presentations/js"
+            >🤓 JS, CSS</a
+          >
+        </li>
+        <li>
+          <a href="/presentations/handlebars"
+            >🌟 Handlebars</a
+          >
+        </li>
+        <li>
+          <a href="/presentations/auth"
+            >🔐 Auth</a
+          >
+        </li>
+         <li>
+          <a href="/presentations/middlewares"
+            >⛓️ Middlewares</a
+          >
+        </li>
+        <li>
+          <a href="/presentations/swagger"
+            >📒 Swagger</a
+          >
+        </li>
+
+        <li>
+                <a href="https://stackblitz.com/edit/stackblitz-starters-j64pj8?file=package.json">
+                    🚀 [Stackblitz] Fetch, DOM
+                </a>
+        </li>
+
+      </ul>
+    </main>
+    <footer>
+      <small
+        >Made with ♥️ by
+        <a href="https://josetomassilvaz.me">José Tomás Silva</a></small
+      >
+    </footer>
+    <style>
+      :root {
+        --background: hsl(0, 0%, 8%);
+        --layer-1: hsl(0, 0%, 10%);
+        --layer-2: hsl(0, 0%, 12%);
+        --layer-3: hsl(0, 0%, 14%);
+        --text-primary: hsl(0, 0%, 100%);
+        --text-secondary: hsl(0, 0%, 70%);
+      }
+      ul {
+        padding: 0;
+      }
+      li {
+        list-style: none;
+        margin: 1rem;
+      }
+      a {
+        text-decoration: none;
+        color: var(--text-secondary);
+      }
+      a:hover {
+        color: var(--text-primary);
+        animation: color 0.5s;
+        text-decoration: underline;
+        text-underline-offset: 0.5rem;
+      }
+      body {
+        background-color: var(--background);
+        color: var(--text-primary);
+        font-family: "Noto Sans JP", sans-serif;
+        padding: 2rem;
+        margin: 0;
+      }
+      main {
+        max-width: 640px;
+        flex: 1;
+      }
+      p,
+      span,
+      small {
+        color: var(--text-secondary);
+      }
+      footer {
+        padding: 1rem;
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+        flex-shrink: 0;
+      }
+    </style>
+  </body>
+</html>

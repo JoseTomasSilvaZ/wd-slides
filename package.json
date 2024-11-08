@@ -7,7 +7,7 @@
     "build:multiple": "node scripts/build.mjs",
     "dev": "node scripts/dev.mjs",
     "clean": "rm -rf .site present/*/index.html present/*/dist",
-    "export": "slidev export"
+    "export": "node scripts/export.mjs"
   },
   "dependencies": {
     "@slidev/cli": "^0.49.29",
@@ -17,6 +17,6 @@
     "zx": "^8.1.9"
   },
   "devDependencies": {
-    "playwright-chromium": "^1.46.1"
+    "playwright-chromium": "^1.48.2"
   }
 }

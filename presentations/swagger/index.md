@@ -47,6 +47,21 @@ src: ./pages/swagger2.md
 hide: false
 ---
 
+---
+src: ./pages/inputs.md
+hide: false
+---
+
+---
+src: ./pages/outputs.md
+hide: false
+---
+
+
+---
+src: ./pages/security.md
+hide: false
+---
 
 
 ---
