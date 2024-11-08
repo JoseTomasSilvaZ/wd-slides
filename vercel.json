@@ -3,5 +3,5 @@
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "buildCommand": "npm run clean && npm run build:multiple",
-  "outputDirectory": ".site"
+  "outputDirectory": "dist"
 }
